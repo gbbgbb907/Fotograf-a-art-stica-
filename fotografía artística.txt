@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Semana 7</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FF067F;
+            color: #fff;
+        }
+
+        .header-content {
+            background-color: #C39BD3;
+        }
+
+        .header-image {
+            background-color: #FA8072;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: #FFD700; /* Cambia el color del texto a dorado cuando el mouse está sobre el enlace */
+        }
+
+        section, aside {
+            background-color: #F9E79F;
+            color: black;
+        }
+
+        .fondo, .fondo2 {
+            color: black;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .medida {
+            font-size: 24px;
+        }
+
+        #tipo {
+            font-style: italic;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column align-items-center">
+    <header class="header-content w-75 mt-4 p-4 d-flex justify-content-between align-items-center">
+        <div class="d-flex w-100">
+            <div class="header-text flex-grow-1 text-center">
+                <h1 class="medida">Fotografía artística</h1>
+            </div>
+            <div class="header-image p-4 text-center">
+                <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-sunset.png" alt="Imagen artística" class="img-fluid">
+            </div>
+        </div>
+    </header>
+    <nav class="bg-danger w-75 py-3 text-center">
+        <a href="#concepto">Concepto</a>
+        <a href="#composicion">Composición</a>
+        <a href="#encuadre">Encuadre</a>
+        <a href="#iluminacion">Iluminación</a>
+        <a href="#color">Color</a>
+        <a href="https://soycristinanavarro.es/fotografia-artistica" target="_blank">Recurso Externo</a>
+    </nav>
+    <main class="w-75 my-4 d-flex">
+        <section class="flex-grow-1 p-4 mr-3">
+            <h2 id="concepto">El concepto</h2>
+            <article>
+                <p class="fondo">El concepto lo es todo en la fotografía artística. Si no tenemos claro qué idea queremos transmitir, difícilmente llegaremos a provocar una emoción en los demás. ¿Qué quieres expresar con tu fotografía? ¿Cuál es el mensaje o la historia? Tener una idea clara te ayudará a tomar decisiones sobre la composición, el encuadre, la luz y el color.</p>
+            </article>
+            <h2 id="composicion">La composición</h2>
+            <article>
+                <p class="fondo2">Otra de las claves para realizar fotografía artística es jugar con la composición y cómo se ordenan los elementos en la fotografía. Experimenta con diferentes formas de composición, como el uso de líneas, formas y texturas para crear interés visual.</p>
+            </article>
+            <h2 id="encuadre">El encuadre</h2>
+            <article>
+                <p>La tercera clave o recurso creativo es el uso del encuadre. Decide qué incluyes y qué excluyes en la imagen. Jugar con el encuadre puede ayudarte a enfatizar ciertos elementos o a crear una sensación de profundidad o de distancia.</p>
+            </article>
+            <h2 id="iluminacion">La iluminación</h2>
+            <article>
+                <p class="fondo">Como ya sabrás, la iluminación es la base de la fotografía. Al menos para mi. Te aconsejo que pruebes con diferentes fuentes de luz para conseguir diferentes resultados. Además, la intensidad y la dirección de la luz para crear efectos sorprendentes.</p>
+            </article>
+            <h2 id="color">El color</h2>
+            <article id="cambio">
+                <p>Y llegamos a la quinta y última de las claves a la hora de realizar fotos artísticas. El color puede ser un elemento muy poderoso en la fotografía. Usa el color de manera consciente para crear contrastes, enfatizar ciertos elementos o transmitir emociones.</p>
+            </article>
+        </section>
+        <aside class="p-4 flex-shrink-1">
+            <h2>Autor:</h2>
+            <p>Este artículo está hecho con mi autoria con la ayuda de Cristina Navarro especialista en fotografía de producto y gastronomía, aquí dejo un enlace de su trabajo presione
+                <a href="https://soycristinanavarro.es/fotografia-artistica" target="_blank">aquí</a>.                
+                Puedes escribirle un correo a <a href="mailto:gabrituri2510@gmail.com">gabrituri2510@gmail.com</a>
+            </p>
+        </aside>
+    </main>
+    <footer class="footer w-75 py-4 text-center">
+        <p id="tipo">Todos los derechos reservados - Gabriela - 2024</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
